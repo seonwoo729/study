@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/TestClass.hpp
+string
+-
+
+/home/seonw/Study/study/src/TestClass.cpp
+TestClass.hpp
+/home/seonw/Study/study/src/TestClass.hpp
+
+/home/seonw/Study/study/src/main.cpp
+iostream
+-
+TestClass.hpp
+/home/seonw/Study/study/src/TestClass.hpp
+
