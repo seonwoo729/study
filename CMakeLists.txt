@@ -7,7 +7,7 @@ project(study)
 set(BINARY_NAME out)
 
 set(SRC_FILES
-    ${CMAKE_SOURCE_DIR}/src/TestClass.cpp
+    ${CMAKE_SOURCE_DIR}/src/Sample.cpp
     ${CMAKE_SOURCE_DIR}/src/main.cpp
 )
 

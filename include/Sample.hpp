@@ -1,15 +1,15 @@
 #include <string>
 
-class Test {
+class Sample {
 public:
-    static Test& getInstance();
+    static Sample& getInstance();
 
     void setSampleText(const std::string& text);
     const std::string getSampleText();
 
 private:
-    Test();
-    ~Test();
+    Sample();
+    ~Sample();
 
 private:
     std::string mSampleText;
