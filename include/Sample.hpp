@@ -1,16 +1,21 @@
 #include <string>
 
-class Test {
+#ifndef INCLUDE_SAMPLE_HPP
+#define INCLUDE_SAMPLE_HPP
+
+class Sample {
 public:
-    static Test& getInstance();
+    static Sample& getInstance();
 
     void setSampleText(const std::string& text);
     const std::string getSampleText();
 
 private:
-    Test();
-    ~Test();
+    Sample();
+    ~Sample();
 
 private:
     std::string mSampleText;
 };
+
+#endif // INCLUDE_SAMPLE_HPP
