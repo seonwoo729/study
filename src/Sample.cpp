@@ -5,8 +5,8 @@ Sample::Sample() {}
 Sample::~Sample() {}
 
 Sample& Sample::getInstance() {
-    static Sample sTest;
-    return sTest;
+    static Sample Sample;
+    return Sample;
 }
 
 void Sample::setSampleText(const std::string& text) {
